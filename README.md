@@ -1,0 +1,2 @@
+# num-seq
+Numerical sequences 

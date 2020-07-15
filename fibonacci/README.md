@@ -13,3 +13,9 @@
 [fibonacci.raku](fibonacci.raku) - using multi-methods to define the function. Slow for numbers more than ~20.
 
 [fibonacci-cached.raku](fibonacci-cached.raku) - using cache for computed values. Fast. As Raku does not limit the length of integers, the program can be used for Ns more than 100.
+
+# Python3 solutions
+
+[fibonacci.py](fibonacci.py) - recursive definition. Slow for numbers > 20-30.
+
+[fibonacci-lru.py](fibonacci-lru.py) - same implemenation but with an `@lru_cache` decorator, which makes it fast.

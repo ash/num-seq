@@ -9,4 +9,4 @@ def fib(n):
 # print(fib(10))
 
 for n in range(101):
-    print(f"fib({n}) = {1}", fib(n))
+    print(f"fib({n}) = {fib(n)}")

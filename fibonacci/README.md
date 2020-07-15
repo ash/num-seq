@@ -1,6 +1,6 @@
 # List
 
-fibonacci.txt - list of Fibonacci numbers from F0 to F100.
+fibonacci.txt - list of Fibonacci numbers from F0 to F101.
 
 # C++ solutions
 

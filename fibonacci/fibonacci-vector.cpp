@@ -7,6 +7,12 @@ unsigned long long fib(unsigned int n) {
     static vector<unsigned long long> cache;
 
     if (n < cache.size()) return cache[n];
+
+    if (n < 2) {
+        cache.push_back(n);
+        return n;
+    }
+
     if (n == cache.size()) {
         unsigned long long f;
 
@@ -18,10 +24,13 @@ unsigned long long fib(unsigned int n) {
 
         return f;
     }
-    else return fib(n - 1) + fib(n - 2);
+
+    return fib(n - 2) + fib(n - 1);
 }
 
 int main() {
+    // cout << fib(5) << endl;
+
     for (unsigned int n = 0; n <= 93; n++) {
         cout << "fib(" << n << ") = " << fib(n) << endl;
     }

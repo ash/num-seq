@@ -6,7 +6,8 @@ multi sub fib($n) {
     state @fib;
     return @fib[$n] if @fib[$n];
 
-    return @fib[$n] = fib($n - 1) + fib($n - 2);
+    return @fib[$n] = fib($n - 2) + fib($n - 1);
 }
 
-say "fib($_) = {fib($_)}" for ^101;
+# say fib(10);
+say "fib($_) = {fib($_)}" for ^100;

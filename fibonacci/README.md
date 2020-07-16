@@ -12,6 +12,8 @@
 
 [fibonacci-loop.cpp](fibonacci-loop.cpp) — No recursion used, a very fast solution to print the sequence.
 
+[fibonacci-pre-computed.cpp](fibonacci-pre-computed.cpp) — Pre-compute the values once, and use them later in the program.
+
 ## Raku solutions
 
 [fibonacci.raku](fibonacci.raku) — using multi-methods to define the function. Slow for numbers more than ~20.

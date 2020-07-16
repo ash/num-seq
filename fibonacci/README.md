@@ -10,6 +10,8 @@
 
 [fibonacci-vector.cpp](fibonacci-vector.cpp) — using the cached to keep previously computed numbers. This is much much faster for bigger Ns. Note that the maximum Fibonacci number that the `long long int` type (64 bits) can keep is fib(93).
 
+[fibonacci-loop.cpp](fibonacci-loop.cpp) — No recursion used, a very fast solution to print the sequence.
+
 ## Raku solutions
 
 [fibonacci.raku](fibonacci.raku) — using multi-methods to define the function. Slow for numbers more than ~20.
